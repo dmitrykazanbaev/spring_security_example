@@ -3,6 +3,7 @@ package org.dmitrykazanbaev.spring_security_example.validator;
 import org.dmitrykazanbaev.spring_security_example.model.User;
 import org.dmitrykazanbaev.spring_security_example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
@@ -12,6 +13,7 @@ import org.springframework.validation.Validator;
  * implements {@link Validator}
  */
 
+@Component
 public class UserValidator implements Validator{
     @Autowired
     private UserService userService;
