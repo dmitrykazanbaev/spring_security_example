@@ -2,6 +2,7 @@
 Используемые технологии:
 * Spring (MVC, Security, JPA)
 * Hibernate
+* PostgreSQL
 * Maven
 * HTML/CSS/JS (Bootstrap)
-* Tomcat 8
+* Jetty
