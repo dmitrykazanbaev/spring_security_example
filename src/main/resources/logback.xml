@@ -7,7 +7,7 @@
         </encoder>
     </appender>
 
-    <logger name="dmitrykazanbaev.spring_security_example">
+    <logger name="org.dmitrykazanbaev.spring_security_example">
         <level value="debug"/>
     </logger>
 
